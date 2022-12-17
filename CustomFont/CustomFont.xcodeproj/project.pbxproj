@@ -10,6 +10,10 @@
 		BE268AB9294DE22000138220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AB8294DE22000138220 /* AppDelegate.swift */; };
 		BE268AC2294DE22400138220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE268AC1294DE22400138220 /* Assets.xcassets */; };
 		BE268AC5294DE22400138220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE268AC3294DE22400138220 /* LaunchScreen.storyboard */; };
+		BE268AEF294DE5BD00138220 /* ViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AEE294DE5BD00138220 /* ViewContainer.swift */; };
+		BE268AF1294DE65600138220 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AF0294DE65600138220 /* UIView+Extension.swift */; };
+		BE268AF4294DE7C100138220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AF3294DE7C100138220 /* ViewController.swift */; };
+		BE268AF6294DE83000138220 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AF5294DE83000138220 /* CustomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,10 @@
 		BE268AC6294DE22400138220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE268ACB294DE22400138220 /* CustomFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE268AD5294DE22400138220 /* CustomFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE268AEE294DE5BD00138220 /* ViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContainer.swift; sourceTree = "<group>"; };
+		BE268AF0294DE65600138220 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		BE268AF3294DE7C100138220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE268AF5294DE83000138220 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				BE268AE8294DE42600138220 /* AppDelegate */,
+				BE268AEB294DE57E00138220 /* Presentation Layer */,
 				BE268AEA294DE44B00138220 /* Storyboard */,
 				BE268AE9294DE43A00138220 /* Resources */,
 			);
@@ -115,6 +124,41 @@
 				BE268AC3294DE22400138220 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		BE268AEB294DE57E00138220 /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				BE268AEC294DE59600138220 /* Common */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		BE268AEC294DE59600138220 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BE268AF2294DE7A700138220 /* CustomViewController */,
+				BE268AED294DE5A100138220 /* ViewContainer */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BE268AED294DE5A100138220 /* ViewContainer */ = {
+			isa = PBXGroup;
+			children = (
+				BE268AEE294DE5BD00138220 /* ViewContainer.swift */,
+				BE268AF0294DE65600138220 /* UIView+Extension.swift */,
+			);
+			path = ViewContainer;
+			sourceTree = "<group>";
+		};
+		BE268AF2294DE7A700138220 /* CustomViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BE268AF3294DE7C100138220 /* ViewController.swift */,
+				BE268AF5294DE83000138220 /* CustomViewController.swift */,
+			);
+			path = CustomViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE268AF1294DE65600138220 /* UIView+Extension.swift in Sources */,
+				BE268AEF294DE5BD00138220 /* ViewContainer.swift in Sources */,
+				BE268AF6294DE83000138220 /* CustomViewController.swift in Sources */,
+				BE268AF4294DE7C100138220 /* ViewController.swift in Sources */,
 				BE268AB9294DE22000138220 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
