@@ -8,14 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BE268AB9294DE22000138220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AB8294DE22000138220 /* AppDelegate.swift */; };
-		BE268ABB294DE22000138220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268ABA294DE22000138220 /* SceneDelegate.swift */; };
-		BE268ABD294DE22000138220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268ABC294DE22000138220 /* ViewController.swift */; };
-		BE268AC0294DE22000138220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE268ABE294DE22000138220 /* Main.storyboard */; };
 		BE268AC2294DE22400138220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE268AC1294DE22400138220 /* Assets.xcassets */; };
 		BE268AC5294DE22400138220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE268AC3294DE22400138220 /* LaunchScreen.storyboard */; };
-		BE268AD0294DE22400138220 /* CustomFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268ACF294DE22400138220 /* CustomFontTests.swift */; };
-		BE268ADA294DE22400138220 /* CustomFontUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AD9294DE22400138220 /* CustomFontUITests.swift */; };
-		BE268ADC294DE22400138220 /* CustomFontUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268ADB294DE22400138220 /* CustomFontUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +32,11 @@
 /* Begin PBXFileReference section */
 		BE268AB5294DE22000138220 /* CustomFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE268AB8294DE22000138220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE268ABA294DE22000138220 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE268ABC294DE22000138220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE268ABF294DE22000138220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE268AC1294DE22400138220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE268AC4294DE22400138220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE268AC6294DE22400138220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE268ACB294DE22400138220 /* CustomFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE268ACF294DE22400138220 /* CustomFontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontTests.swift; sourceTree = "<group>"; };
 		BE268AD5294DE22400138220 /* CustomFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE268AD9294DE22400138220 /* CustomFontUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontUITests.swift; sourceTree = "<group>"; };
-		BE268ADB294DE22400138220 /* CustomFontUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				BE268AB7294DE22000138220 /* CustomFont */,
-				BE268ACE294DE22400138220 /* CustomFontTests */,
-				BE268AD8294DE22400138220 /* CustomFontUITests */,
 				BE268AB6294DE22000138220 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,31 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				BE268AB8294DE22000138220 /* AppDelegate.swift */,
-				BE268ABA294DE22000138220 /* SceneDelegate.swift */,
-				BE268ABC294DE22000138220 /* ViewController.swift */,
-				BE268ABE294DE22000138220 /* Main.storyboard */,
 				BE268AC1294DE22400138220 /* Assets.xcassets */,
 				BE268AC3294DE22400138220 /* LaunchScreen.storyboard */,
 				BE268AC6294DE22400138220 /* Info.plist */,
 			);
 			path = CustomFont;
-			sourceTree = "<group>";
-		};
-		BE268ACE294DE22400138220 /* CustomFontTests */ = {
-			isa = PBXGroup;
-			children = (
-				BE268ACF294DE22400138220 /* CustomFontTests.swift */,
-			);
-			path = CustomFontTests;
-			sourceTree = "<group>";
-		};
-		BE268AD8294DE22400138220 /* CustomFontUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BE268AD9294DE22400138220 /* CustomFontUITests.swift */,
-				BE268ADB294DE22400138220 /* CustomFontUITestsLaunchTests.swift */,
-			);
-			path = CustomFontUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +199,6 @@
 			files = (
 				BE268AC5294DE22400138220 /* LaunchScreen.storyboard in Resources */,
 				BE268AC2294DE22400138220 /* Assets.xcassets in Resources */,
-				BE268AC0294DE22000138220 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE268ABD294DE22000138220 /* ViewController.swift in Sources */,
 				BE268AB9294DE22000138220 /* AppDelegate.swift in Sources */,
-				BE268ABB294DE22000138220 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +231,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE268AD0294DE22400138220 /* CustomFontTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +238,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE268ADC294DE22400138220 /* CustomFontUITestsLaunchTests.swift in Sources */,
-				BE268ADA294DE22400138220 /* CustomFontUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +257,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BE268ABE294DE22000138220 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE268ABF294DE22000138220 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE268AC3294DE22400138220 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +394,6 @@
 				INFOPLIST_FILE = CustomFont/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +421,6 @@
 				INFOPLIST_FILE = CustomFont/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
