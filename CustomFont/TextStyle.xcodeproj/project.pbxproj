@@ -36,13 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BE268AB5294DE22000138220 /* CustomFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE268AB5294DE22000138220 /* TextStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE268AB8294DE22000138220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE268AC1294DE22400138220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE268AC4294DE22400138220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE268AC6294DE22400138220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE268ACB294DE22400138220 /* CustomFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE268AD5294DE22400138220 /* CustomFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE268ACB294DE22400138220 /* TextStyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextStyleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE268AD5294DE22400138220 /* TextStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE268AEE294DE5BD00138220 /* ViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContainer.swift; sourceTree = "<group>"; };
 		BE268AF0294DE65600138220 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		BE268AF3294DE7C100138220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		BE268AAC294DE22000138220 = {
 			isa = PBXGroup;
 			children = (
-				BE268AB7294DE22000138220 /* CustomFont */,
+				BE268AB7294DE22000138220 /* TextStyle */,
 				BE268AB6294DE22000138220 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		BE268AB6294DE22000138220 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE268AB5294DE22000138220 /* CustomFont.app */,
-				BE268ACB294DE22400138220 /* CustomFontTests.xctest */,
-				BE268AD5294DE22400138220 /* CustomFontUITests.xctest */,
+				BE268AB5294DE22000138220 /* TextStyle.app */,
+				BE268ACB294DE22400138220 /* TextStyleTests.xctest */,
+				BE268AD5294DE22400138220 /* TextStyleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE268AB7294DE22000138220 /* CustomFont */ = {
+		BE268AB7294DE22000138220 /* TextStyle */ = {
 			isa = PBXGroup;
 			children = (
 				BE268AE8294DE42600138220 /* AppDelegate */,
@@ -102,7 +102,7 @@
 				BE268AEA294DE44B00138220 /* Storyboard */,
 				BE268AE9294DE43A00138220 /* Resources */,
 			);
-			path = CustomFont;
+			path = TextStyle;
 			sourceTree = "<group>";
 		};
 		BE268AE8294DE42600138220 /* AppDelegate */ = {
@@ -194,9 +194,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE268AB4294DE22000138220 /* CustomFont */ = {
+		BE268AB4294DE22000138220 /* TextStyle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE268ADF294DE22400138220 /* Build configuration list for PBXNativeTarget "CustomFont" */;
+			buildConfigurationList = BE268ADF294DE22400138220 /* Build configuration list for PBXNativeTarget "TextStyle" */;
 			buildPhases = (
 				BE268AB1294DE22000138220 /* Sources */,
 				BE268AB2294DE22000138220 /* Frameworks */,
@@ -206,14 +206,14 @@
 			);
 			dependencies = (
 			);
-			name = CustomFont;
+			name = TextStyle;
 			productName = CustomFont;
-			productReference = BE268AB5294DE22000138220 /* CustomFont.app */;
+			productReference = BE268AB5294DE22000138220 /* TextStyle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BE268ACA294DE22400138220 /* CustomFontTests */ = {
+		BE268ACA294DE22400138220 /* TextStyleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE268AE2294DE22400138220 /* Build configuration list for PBXNativeTarget "CustomFontTests" */;
+			buildConfigurationList = BE268AE2294DE22400138220 /* Build configuration list for PBXNativeTarget "TextStyleTests" */;
 			buildPhases = (
 				BE268AC7294DE22400138220 /* Sources */,
 				BE268AC8294DE22400138220 /* Frameworks */,
@@ -224,14 +224,14 @@
 			dependencies = (
 				BE268ACD294DE22400138220 /* PBXTargetDependency */,
 			);
-			name = CustomFontTests;
+			name = TextStyleTests;
 			productName = CustomFontTests;
-			productReference = BE268ACB294DE22400138220 /* CustomFontTests.xctest */;
+			productReference = BE268ACB294DE22400138220 /* TextStyleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BE268AD4294DE22400138220 /* CustomFontUITests */ = {
+		BE268AD4294DE22400138220 /* TextStyleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE268AE5294DE22400138220 /* Build configuration list for PBXNativeTarget "CustomFontUITests" */;
+			buildConfigurationList = BE268AE5294DE22400138220 /* Build configuration list for PBXNativeTarget "TextStyleUITests" */;
 			buildPhases = (
 				BE268AD1294DE22400138220 /* Sources */,
 				BE268AD2294DE22400138220 /* Frameworks */,
@@ -242,9 +242,9 @@
 			dependencies = (
 				BE268AD7294DE22400138220 /* PBXTargetDependency */,
 			);
-			name = CustomFontUITests;
+			name = TextStyleUITests;
 			productName = CustomFontUITests;
-			productReference = BE268AD5294DE22400138220 /* CustomFontUITests.xctest */;
+			productReference = BE268AD5294DE22400138220 /* TextStyleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -270,7 +270,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BE268AB0294DE22000138220 /* Build configuration list for PBXProject "CustomFont" */;
+			buildConfigurationList = BE268AB0294DE22000138220 /* Build configuration list for PBXProject "TextStyle" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -283,9 +283,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE268AB4294DE22000138220 /* CustomFont */,
-				BE268ACA294DE22400138220 /* CustomFontTests */,
-				BE268AD4294DE22400138220 /* CustomFontUITests */,
+				BE268AB4294DE22000138220 /* TextStyle */,
+				BE268ACA294DE22400138220 /* TextStyleTests */,
+				BE268AD4294DE22400138220 /* TextStyleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -350,12 +350,12 @@
 /* Begin PBXTargetDependency section */
 		BE268ACD294DE22400138220 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE268AB4294DE22000138220 /* CustomFont */;
+			target = BE268AB4294DE22000138220 /* TextStyle */;
 			targetProxy = BE268ACC294DE22400138220 /* PBXContainerItemProxy */;
 		};
 		BE268AD7294DE22400138220 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE268AB4294DE22000138220 /* CustomFont */;
+			target = BE268AB4294DE22000138220 /* TextStyle */;
 			targetProxy = BE268AD6294DE22400138220 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -556,7 +556,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomFont.app/CustomFont";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextStyle.app/TextStyle";
 			};
 			name = Debug;
 		};
@@ -576,7 +576,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomFont.app/CustomFont";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextStyle.app/TextStyle";
 			};
 			name = Release;
 		};
@@ -619,7 +619,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE268AB0294DE22000138220 /* Build configuration list for PBXProject "CustomFont" */ = {
+		BE268AB0294DE22000138220 /* Build configuration list for PBXProject "TextStyle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE268ADD294DE22400138220 /* Debug */,
@@ -628,7 +628,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE268ADF294DE22400138220 /* Build configuration list for PBXNativeTarget "CustomFont" */ = {
+		BE268ADF294DE22400138220 /* Build configuration list for PBXNativeTarget "TextStyle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE268AE0294DE22400138220 /* Debug */,
@@ -637,7 +637,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE268AE2294DE22400138220 /* Build configuration list for PBXNativeTarget "CustomFontTests" */ = {
+		BE268AE2294DE22400138220 /* Build configuration list for PBXNativeTarget "TextStyleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE268AE3294DE22400138220 /* Debug */,
@@ -646,7 +646,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE268AE5294DE22400138220 /* Build configuration list for PBXNativeTarget "CustomFontUITests" */ = {
+		BE268AE5294DE22400138220 /* Build configuration list for PBXNativeTarget "TextStyleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE268AE6294DE22400138220 /* Debug */,
