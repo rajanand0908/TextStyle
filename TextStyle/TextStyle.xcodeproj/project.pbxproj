@@ -16,6 +16,8 @@
 		BE268AF6294DE83000138220 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AF5294DE83000138220 /* CustomViewController.swift */; };
 		BE268AFE294DEA9500138220 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AFD294DEA9500138220 /* HomeView.swift */; };
 		BE268B00294DEBC100138220 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AFF294DEBC100138220 /* HomeViewController.swift */; };
+		BE268B04294DF0EE00138220 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268B03294DF0EE00138220 /* Fonts.swift */; };
+		BE268B07294DF14500138220 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268B06294DF14500138220 /* TextStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		BE268AF5294DE83000138220 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		BE268AFD294DEA9500138220 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BE268AFF294DEBC100138220 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BE268B02294DF0D900138220 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
+		BE268B03294DF0EE00138220 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		BE268B06294DF14500138220 /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +147,7 @@
 		BE268AEC294DE59600138220 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BE268B05294DF11800138220 /* FontUtilites */,
 				BE268AF2294DE7A700138220 /* CustomViewController */,
 				BE268AED294DE5A100138220 /* ViewContainer */,
 			);
@@ -189,6 +195,24 @@
 				BE268AFD294DEA9500138220 /* HomeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BE268B01294DF0B400138220 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BE268B02294DF0D900138220 /* SF-Pro.ttf */,
+				BE268B03294DF0EE00138220 /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BE268B05294DF11800138220 /* FontUtilites */ = {
+			isa = PBXGroup;
+			children = (
+				BE268B01294DF0B400138220 /* Fonts */,
+				BE268B06294DF14500138220 /* TextStyle.swift */,
+			);
+			path = FontUtilites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +345,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE268B07294DF14500138220 /* TextStyle.swift in Sources */,
+				BE268B04294DF0EE00138220 /* Fonts.swift in Sources */,
 				BE268AF1294DE65600138220 /* UIView+Extension.swift in Sources */,
 				BE268AEF294DE5BD00138220 /* ViewContainer.swift in Sources */,
 				BE268AF6294DE83000138220 /* CustomViewController.swift in Sources */,
@@ -495,7 +521,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VRQ6H42Z38;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomFont/Resources/Info.plist;
+				INFOPLIST_FILE = TextStyle/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -522,7 +548,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VRQ6H42Z38;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomFont/Resources/Info.plist;
+				INFOPLIST_FILE = TextStyle/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
