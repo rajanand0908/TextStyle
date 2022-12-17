@@ -14,6 +14,8 @@
 		BE268AF1294DE65600138220 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AF0294DE65600138220 /* UIView+Extension.swift */; };
 		BE268AF4294DE7C100138220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AF3294DE7C100138220 /* ViewController.swift */; };
 		BE268AF6294DE83000138220 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AF5294DE83000138220 /* CustomViewController.swift */; };
+		BE268AFE294DEA9500138220 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AFD294DEA9500138220 /* HomeView.swift */; };
+		BE268B00294DEBC100138220 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE268AFF294DEBC100138220 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		BE268AF0294DE65600138220 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		BE268AF3294DE7C100138220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE268AF5294DE83000138220 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		BE268AFD294DEA9500138220 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BE268AFF294DEBC100138220 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 		BE268AEB294DE57E00138220 /* Presentation Layer */ = {
 			isa = PBXGroup;
 			children = (
+				BE268AFA294DEA6400138220 /* Scenes */,
 				BE268AEC294DE59600138220 /* Common */,
 			);
 			path = "Presentation Layer";
@@ -159,6 +164,31 @@
 				BE268AF5294DE83000138220 /* CustomViewController.swift */,
 			);
 			path = CustomViewController;
+			sourceTree = "<group>";
+		};
+		BE268AFA294DEA6400138220 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BE268AFB294DEA6400138220 /* HomeView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BE268AFB294DEA6400138220 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				BE268AFC294DEA7800138220 /* Views */,
+				BE268AFF294DEBC100138220 /* HomeViewController.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		BE268AFC294DEA7800138220 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE268AFD294DEA9500138220 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +324,9 @@
 				BE268AF1294DE65600138220 /* UIView+Extension.swift in Sources */,
 				BE268AEF294DE5BD00138220 /* ViewContainer.swift in Sources */,
 				BE268AF6294DE83000138220 /* CustomViewController.swift in Sources */,
+				BE268AFE294DEA9500138220 /* HomeView.swift in Sources */,
 				BE268AF4294DE7C100138220 /* ViewController.swift in Sources */,
+				BE268B00294DEBC100138220 /* HomeViewController.swift in Sources */,
 				BE268AB9294DE22000138220 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
